@@ -36,7 +36,6 @@ while True:
         
     cv2.imshow('Real Image',frame)
     cv2.imshow('Threshold Image',thresh_frame)
-    cv2.imshow('GrayScale Image',gray)
     cv2.imshow('Delta Image',delta_frame)
     key=cv2.waitKey(1)
     if key==ord('q'):
